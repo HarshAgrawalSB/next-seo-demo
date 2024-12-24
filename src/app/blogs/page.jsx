@@ -35,9 +35,9 @@ export async function generateMetadata({ params }) {
     return {
         title: 'Popular Blogging Site',
         description: "Read & upload blogs",
-        metadataBase: new URL('https://grackle-renewed-mallard.ngrok-free.app'),
-        alternates: {
-            canonical: '/',
-        }
+        // metadataBase: new URL('https://grackle-renewed-mallard.ngrok-free.app'),
+        // alternates: {
+        //     canonical: '/',
+        // }
     }
 }

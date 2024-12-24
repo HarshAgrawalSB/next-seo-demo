@@ -39,6 +39,12 @@ export async function generateMetadata({ params }) {
   return {
     title: 'Popular Blogging Site',
     description: "Read & upload blogs",
-    canonical: `https://next-seo-demo.onrender.com/blogs/${params?.id}`
+    // alternates: {
+    //   canonical: `https://next-seo-demo.onrender.com/`,
+    //   languages: {
+    //     'en-US': '/en-US',
+    //     'de-DE': '/de-DE',
+    //   },
+    // },
   }
 }
